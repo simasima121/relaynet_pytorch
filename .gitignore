@@ -1,4 +1,7 @@
-
+.gitignore
+ipynb_checkpoints
+datasets/OCTData/
+datasets/OCTlabel041818/
 networks/classifiers/__pycache__/
 
 *.pyc

@@ -1,0 +1,29 @@
+--- /home/deeplearning/Abhijit/Git Projects/relaynet_pytorch/networks/classifiers/relay_net.py
++++ /home/deeplearning/Abhijit/Git Projects/relaynet_pytorch/networks/classifiers/relay_net.py
+@@ -2,6 +2,7 @@
+     """
+     A PyTorch implementation of ReLayNet
+     Coded by Shayan and Abhijit
++
+     param ={
+         'num_channels':1,
+         'num_filters':64,
+@@ -13,8 +14,9 @@
+         'stride_pool':2,
+         'num_classes':10
+     }
++
+     """
+-    torch.nn.Module.dump_patches = True
++
+     def __init__(self, params):
+ 
+         super(ReLayNet, self).__init__()
+@@ -70,6 +72,7 @@
+         """
+         Save model with its parameters to the given path. Conventionally the
+         path should end with "*.model".
++
+         Inputs:
+         - path: path string
+         """
