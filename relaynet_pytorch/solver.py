@@ -1,3 +1,5 @@
+"""Training model"""
+
 from random import shuffle
 import numpy as np
 import torch.nn.functional as F
