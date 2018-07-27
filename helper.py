@@ -3,6 +3,18 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.misc import imsave
 
+def rgb_to_grey(rgb):
+    '''
+    convert rgb color to greyscale
+    '''
+    return np.dot(rgb[...,:3], [0.299, 0.587, 0.114])
+
+def m_of_e(x, base=8):
+    '''
+    returns multiples of 8
+    '''
+    return int(base * round(float(x)/base))
+
 def show_main_image(img_data):
     '''
     Show image file after squeezing any unwanted dimensions
