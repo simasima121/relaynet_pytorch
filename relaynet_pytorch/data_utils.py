@@ -47,8 +47,8 @@ def get_imdb_data():
     sz = Data.shape
     Data = Data.reshape([sz[0], 1, sz[1], sz[2]])
     Data = Data[:, :, 61:573, :]
-    weights = Label[:, 1, 61:573, :]
-    Label = Label[:, 0, 61:573, :]
+    weights = Label[:, 1, 61:573, :] # weights are at index 1
+    Label = Label[:, 0, 61:573, :] # labels are at index 0
     sz = Label.shape
     Label = Label.reshape([sz[0], 1, sz[1], sz[2]])
     weights = weights.reshape([sz[0], 1, sz[1], sz[2]])
@@ -64,8 +64,6 @@ def get_imdb_data():
     Te_Label = np.squeeze(Label[test_id, :, :, :]) - 1
     Te_weights = weights[test_id, :, :, :]
     Te_weights = np.tile(Te_weights, [1, NumClass, 1, 1])
-
-
 
     return (ImdbData(Tr_Dat, Tr_Label, Tr_weights),
             ImdbData(Te_Dat, Te_Label, Te_weights))

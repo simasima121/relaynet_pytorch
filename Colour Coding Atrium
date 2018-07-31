@@ -1,0 +1,102 @@
+6 classes for the skin segmentation
+
+$ Lime and limegreen is same as green 
+
+Color: (None, 'lime') [  10.  251.    4.], Color  >>  Objects: 1
+Color: (None, 'lime') [  22.  252.    3.], Color  >>  Objects: 1
+Color: (None, 'lime') [   3.  252.   11.], Color  >>  Objects: 4
+Color: (None, 'limegreen') [   7.  190.   51.], Color  >>  Objects: 4
+Color: (None, 'lime') [  14.  253.    1.], Color  >>  Objects: 1
+Color: (None, 'lime') [  17.  250.    6.], Color  >>  Objects: 1
+Color: (None, 'lime') [  35.  251.    4.], Color  >>  Objects: 1
+Color: (None, 'lime') [  22.  251.    4.], Color  >>  Objects: 1
+Color: (None, 'lime') [   1.  253.    3.], Color  >>  Objects: 1
+Color: (None, 'lime') [  34.  253.    3.], Color  >>  Objects: 1
+
+Color: (None, 'green') [   3.  191.    6.], Color  >>  Objects: 1
+
+
+# Orange is same as dark orange 
+
+Color: (None, 'darkorange') [ 252.  140.    1.], Color  >>  Objects: 1
+Color: (None, 'darkorange') [ 254.  146.    2.], Color  >>  Objects: 1
+Color: (None, 'darkorange') [ 252.  151.    2.], Color  >>  Objects: 1
+
+Color: (None, 'orange') [ 252.  159.    5.], Color  >>  Objects: 1
+Color: (None, 'orange') [ 253.  183.    4.], Color  >>  Objects: 1
+Color: (None, 'orange') [ 253.  183.    2.], Color  >>  Objects: 1
+Color: (None, 'orange') [ 251.  175.    4.], Color  >>  Objects: 1
+Color: (None, 'orange') [ 252.  160.    3.], Color  >>  Objects: 1
+Color: (None, 'orange') [ 252.  175.    5.], Color  >>  Objects: 1
+Color: (None, 'orange') [ 253.  159.    3.], Color  >>  Objects: 1
+Color: (None, 'orange') [ 253.  176.    5.], Color  >>  Objects: 1
+
+
+# Dark Violet
+
+Color: (None, 'darkviolet') [ 186.    1.  255.], Color  >>  Objects: 1
+Color: (None, 'darkviolet') [ 160.    1.  252.], Color  >>  Objects: 1
+Color: (None, 'darkviolet') [ 153.    1.  252.], Color  >>  Objects: 1
+Color: (None, 'darkviolet') [ 175.    1.  252.], Color  >>  Objects: 4
+Color: (None, 'darkviolet') [ 181.    1.  253.], Color  >>  Objects: 4
+Color: (None, 'darkviolet') [ 186.    1.  254.], Color  >>  Objects: 1
+Color: (None, 'darkviolet') [ 167.    0.  254.], Color  >>  Objects: 1
+Color: (None, 'darkviolet') [ 175.    0.  253.], Color  >>  Objects: 1
+Color: (None, 'darkviolet') [ 181.    0.  252.], Color  >>  Objects: 1
+Color: (None, 'darkviolet') [ 167.    1.  253.], Color  >>  Objects: 1
+Color: (None, 'darkviolet') [ 154.    0.  253.], Color  >>  Objects: 1
+Color: (None, 'darkviolet') [ 154.    0.  254.], Color  >>  Objects: 1
+
+# Magenta/Fuschia
+Color: (None, 'magenta') [ 206.    1.  254.], Color  >>  Objects: 1
+Color: (None, 'magenta') [ 253.    5.  242.], Color  >>  Objects: 4
+Color: (None, 'magenta') [ 252.    7.  241.], Color  >>  Objects: 5
+Color: (None, 'magenta') [ 252.   10.  234.], Color  >>  Objects: 4
+Color: (None, 'magenta') [ 194.    0.  253.], Color  >>  Objects: 1
+Color: (None, 'magenta') [ 250.   11.  220.], Color  >>  Objects: 4
+Color: (None, 'magenta') [ 194.    1.  253.], Color  >>  Objects: 1
+Color: (None, 'magenta') [ 252.    6.  250.], Color  >>  Objects: 4
+Color: (None, 'magenta') [ 252.    8.  246.], Color  >>  Objects: 4
+Color: (None, 'magenta') [ 251.    2.  226.], Color  >>  Objects: 1
+
+
+# Blue
+
+Color: (None, 'blue') [  21.    1.  252.], Color  >>  Objects: 1
+Color: (None, 'blue') [  41.    1.  252.], Color  >>  Objects: 1
+Color: (None, 'blue') [   1.   60.  252.], Color  >>  Objects: 1
+Color: (None, 'blue') [   1.   60.  252.], Color  >>  Objects: 1
+Color: (None, 'blue') [   4.    7.  248.], Color  >>  Objects: 1
+Color: (None, 'blue') [   4.    1.  250.], Color  >>  Objects: 1
+Color: (None, 'blue') [   2.    1.  251.], Color  >>  Objects: 1
+Color: (None, 'blue') [   1.    9.  252.], Color  >>  Objects: 1
+
+
+# Yellow is same as gold
+
+Color: (None, 'yellow') [ 254.  248.    2.], Color  >>  Objects: 1
+Color: (None, 'yellow') [ 254.  242.    3.], Color  >>  Objects: 1
+Color: (None, 'yellow') [ 254.  237.    2.], Color  >>  Objects: 1
+
+Color: (None, 'gold') [ 254.  230.    1.], Color  >>  Objects: 1
+
+
+# Dark Slate Grey
+
+Color: (None, 'darkslategrey') [ 59.  59.  61.], Color  >>  Objects: 2297
+Color: (None, 'darkslategrey') [ 60.  59.  61.], Color  >>  Objects: 2528
+Color: (None, 'darkslategrey') [ 66.  66.  70.], Color  >>  Objects: 1057
+Color: (None, 'darkslategrey') [ 39.  39.  41.], Color  >>  Objects: 1690
+Color: (None, 'darkslategrey') [ 40.  39.  42.], Color  >>  Objects: 1629
+Color: (None, 'darkslategrey') [ 67.  66.  71.], Color  >>  Objects: 830
+Color: (None, 'darkslategrey') [ 35.  37.  41.], Color  >>  Objects: 554
+Color: (None, 'darkslategrey') [ 43.  44.  46.], Color  >>  Objects: 381
+Color: (None, 'darkslategrey') [ 41.  39.  43.], Color  >>  Objects: 770
+Color: (None, 'darkslategrey') [ 73.  60.  72.], Color  >>  Objects: 149
+Color: (None, 'darkslategrey') [ 38.  37.  42.], Color  >>  Objects: 588
+Color: (None, 'darkslategrey') [ 41.  40.  44.], Color  >>  Objects: 433
+Color: (None, 'darkslategrey') [ 36.  35.  37.], Color  >>  Objects: 1769
+Color: (None, 'darkslategrey') [ 36.  36.  37.], Color  >>  Objects: 2105
+Color: (None, 'darkslategrey') [ 86.  42.  66.], Color  >>  Objects: 36
+Color: (None, 'darkslategrey') [ 53.  55.  57.], Color  >>  Objects: 302
+Color: (None, 'darkslategrey') [ 37.  37.  39.], Color  >>  Objects: 1236

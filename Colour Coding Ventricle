@@ -1,0 +1,275 @@
+6 classes for the skin segmentation
+
+# Lime is lime
+
+Color: (None, 'lime'), RGB: [  34.  252.    2.]  >>  Objects: 1
+Color: (None, 'lime'), RGB: [   4.  252.    3.]  >>  Objects: 1
+Color: (None, 'lime'), RGB: [  61.  250.    2.]  >>  Objects: 1
+Color: (None, 'lime'), RGB: [   2.  252.    4.]  >>  Objects: 1
+Color: (None, 'lime'), RGB: [  14.  253.    0.]  >>  Objects: 1
+Color: (None, 'lime'), RGB: [   3.  251.   20.]  >>  Objects: 3
+Color: (None, 'lime'), RGB: [  48.  252.    3.]  >>  Objects: 2
+Color: (None, 'lime'), RGB: [  49.  252.    1.]  >>  Objects: 3
+
+# Dark Orange
+
+Color: (None, 'darkorange'), RGB: [ 255.  146.    1.]  >>  Objects: 1
+Color: (None, 'darkorange'), RGB: [ 253.  140.    0.]  >>  Objects: 1
+Color: (None, 'darkorange'), RGB: [ 254.  126.    0.]  >>  Objects: 1
+
+
+# Dark violet is basically purple so medium purple is same and so is dark orchid
+
+Color: (None, 'darkviolet'), RGB: [ 159.    1.  253.]  >>  Objects: 1
+Color: (None, 'darkviolet'), RGB: [ 153.    2.  252.]  >>  Objects: 1
+Color: (None, 'darkviolet'), RGB: [ 142.    6.  253.]  >>  Objects: 4
+Color: (None, 'darkviolet'), RGB: [ 167.    0.  254.]  >>  Objects: 1
+Color: (None, 'darkviolet'), RGB: [ 175.    1.  250.]  >>  Objects: 1
+Color: (None, 'darkviolet'), RGB: [ 150.    1.  252.]  >>  Objects: 1
+Color: (None, 'darkviolet'), RGB: [ 167.    0.  254.]  >>  Objects: 1
+Color: (None, 'darkviolet'), RGB: [ 186.    1.  254.]  >>  Objects: 1
+Color: (None, 'darkviolet'), RGB: [ 150.    0.  254.]  >>  Objects: 1
+Color: (None, 'darkviolet'), RGB: [ 167.    0.  254.]  >>  Objects: 1
+Color: (None, 'darkviolet'), RGB: [ 181.    0.  253.]  >>  Objects: 1
+Color: (None, 'darkviolet'), RGB: [ 135.    0.  253.]  >>  Objects: 1
+
+Color: (None, 'mediumpurple'), RGB: [ 147.  121.  179.]  >>  Objects: 10
+
+Color: (None, 'darkorchid'), RGB: [ 164.   29.  202.]  >>  Objects: 6
+
+
+# Blue same as DarkSlateBlue and Medium Blue 
+
+Color: (None, 'blue'), RGB: [  29.    4.  239.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   4.   34.  247.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   5.    5.  244.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   4.    3.  245.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   6.    4.  245.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [  17.    4.  243.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   9.   20.  238.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   7.   29.  241.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   7.   21.  240.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   8.    6.  238.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   6.   29.  243.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [  36.    2.  243.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   7.   22.  239.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   8.   42.  237.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   3.   36.  250.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   5.    4.  245.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [  37.    3.  240.]  >>  Objects: 1
+Color: (None, 'darkslateblue'), RGB: [  89.   39.  131.]  >>  Objects: 28
+Color: (None, 'blue'), RGB: [   6.    2.  240.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   3.   42.  246.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   2.   20.  246.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [  24.    4.  241.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [  30.    2.  246.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [  17.    2.  248.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   4.   42.  243.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   6.    3.  243.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [  30.    1.  244.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   9.    4.  239.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   5.   12.  239.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   4.   37.  244.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [  16.    3.  240.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   7.   18.  242.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   2.   19.  250.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [  23.    1.  250.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [  22.    1.  251.]  >>  Objects: 1
+Color: (None, 'midnightblue'), RGB: [  42.    6.  125.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   5.   39.  247.]  >>  Objects: 1
+Color: (None, 'darkslateblue'), RGB: [  46.   32.  152.]  >>  Objects: 5
+Color: (None, 'blue'), RGB: [   6.    4.  247.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [  11.   22.  233.]  >>  Objects: 1
+Color: (None, 'mediumblue'), RGB: [  12.   19.  224.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   4.    5.  246.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   6.   11.  238.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   8.    3.  236.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [  34.    2.  246.]  >>  Objects: 1
+Color: (None, 'blue'), RGB: [   5.   10.  241.]  >>  Objects: 1
+Color: (None, 'darkslateblue'), RGB: [ 107.   54.  128.]  >>  Objects: 16
+
+
+# Red same as Orangered
+
+Color: (None, 'red'), RGB: [ 253.   17.    2.]  >>  Objects: 2
+Color: (None, 'red'), RGB: [ 253.   24.    2.]  >>  Objects: 2
+Color: (None, 'red'), RGB: [ 254.   25.    1.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 254.   30.    1.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 255.   23.    0.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 254.   17.    1.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 253.   31.    0.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 254.   16.    1.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 252.   18.    2.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 253.   31.    0.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 255.   25.    1.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 255.   23.    0.]  >>  Objects: 1
+Color: (None, 'orangered'), RGB: [ 254.   60.    0.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 255.   25.    1.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 254.    0.    0.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 254.   17.    1.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 254.   25.    1.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 254.   31.    1.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 253.   31.    1.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 254.    0.    0.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 254.   17.    1.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 255.   16.    1.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 255.   25.    1.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 255.   16.    1.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 255.   25.    1.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 254.   31.    0.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 254.   23.    0.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 254.   17.    1.]  >>  Objects: 1
+Color: (None, 'red'), RGB: [ 254.   17.    1.]  >>  Objects: 1
+
+
+# Greys
+
+Color: (None, 'dimgrey'), RGB: [ 103.   99.  103.]  >>  Objects: 81
+Color: (None, 'dimgrey'), RGB: [ 88.  84.  89.]  >>  Objects: 1960
+Color: (None, 'dimgrey'), RGB: [ 89.  88.  91.]  >>  Objects: 1520
+Color: (None, 'dimgrey'), RGB: [ 108.   83.  124.]  >>  Objects: 9
+Color: (None, 'dimgrey'), RGB: [ 103.  101.  105.]  >>  Objects: 382
+Color: (None, 'dimgrey'), RGB: [ 92.  90.  93.]  >>  Objects: 955
+Color: (None, 'dimgrey'), RGB: [ 114.  112.  116.]  >>  Objects: 379
+Color: (None, 'dimgrey'), RGB: [  99.   97.  100.]  >>  Objects: 732
+Color: (None, 'dimgrey'), RGB: [ 111.  110.  113.]  >>  Objects: 311
+Color: (None, 'dimgrey'), RGB: [ 136.   63.  106.]  >>  Objects: 12
+Color: (None, 'dimgrey'), RGB: [ 111.   70.  125.]  >>  Objects: 25
+
+Color: (None, 'darkslategrey'), RGB: [ 71.  61.  74.]  >>  Objects: 90
+Color: (None, 'darkslategrey'), RGB: [ 37.  34.  38.]  >>  Objects: 165
+Color: (None, 'darkslategrey'), RGB: [ 53.  51.  55.]  >>  Objects: 3343
+Color: (None, 'darkslategrey'), RGB: [ 53.  53.  55.]  >>  Objects: 3466
+Color: (None, 'darkslategrey'), RGB: [ 66.  63.  68.]  >>  Objects: 767
+Color: (None, 'darkslategrey'), RGB: [ 38.  37.  40.]  >>  Objects: 1373
+Color: (None, 'darkslategrey'), RGB: [ 53.  52.  55.]  >>  Objects: 696
+Color: (None, 'darkslategrey'), RGB: [ 45.  44.  47.]  >>  Objects: 1523
+Color: (None, 'darkslategrey'), RGB: [ 57.  56.  59.]  >>  Objects: 1447
+Color: (None, 'darkslategrey'), RGB: [ 83.  82.  85.]  >>  Objects: 283
+Color: (None, 'darkslategrey'), RGB: [ 40.  40.  42.]  >>  Objects: 2329
+Color: (None, 'darkslategrey'), RGB: [ 36.  36.  38.]  >>  Objects: 1477
+Color: (None, 'darkslategrey'), RGB: [ 41.  39.  42.]  >>  Objects: 623
+Color: (None, 'darkslategrey'), RGB: [ 53.  52.  54.]  >>  Objects: 261
+Color: (None, 'darkslategrey'), RGB: [ 39.  39.  44.]  >>  Objects: 253
+Color: (None, 'darkslategrey'), RGB: [ 66.  64.  65.]  >>  Objects: 200
+Color: (None, 'darkslategrey'), RGB: [ 41.  41.  43.]  >>  Objects: 944
+Color: (None, 'darkslategrey'), RGB: [ 39.  38.  42.]  >>  Objects: 451
+Color: (None, 'darkslategrey'), RGB: [ 67.  65.  68.]  >>  Objects: 951
+Color: (None, 'darkslategrey'), RGB: [ 56.  56.  58.]  >>  Objects: 1103
+Color: (None, 'darkslategrey'), RGB: [ 40.  39.  44.]  >>  Objects: 419
+Color: (None, 'darkslategrey'), RGB: [ 37.  37.  39.]  >>  Objects: 2517
+Color: (None, 'darkslategrey'), RGB: [ 76.  74.  78.]  >>  Objects: 840
+Color: (None, 'darkslategrey'), RGB: [ 43.  41.  45.]  >>  Objects: 270
+Color: (None, 'darkslategrey'), RGB: [ 40.  38.  42.]  >>  Objects: 597
+Color: (None, 'darkslategrey'), RGB: [ 63.  62.  64.]  >>  Objects: 1007
+Color: (None, 'darkslategrey'), RGB: [ 70.  69.  72.]  >>  Objects: 789
+Color: (None, 'darkslategrey'), RGB: [ 37.  36.  38.]  >>  Objects: 428
+Color: (None, 'darkslategrey'), RGB: [ 45.  44.  47.]  >>  Objects: 537
+
+Color: (None, 'lightgrey'), RGB: [ 211.  210.  216.]  >>  Objects: 4
+Color: (None, 'lightgrey'), RGB: [ 216.  209.  218.]  >>  Objects: 2
+Color: (None, 'lightgrey'), RGB: [ 219.  209.  216.]  >>  Objects: 2
+Color: (None, 'lightgrey'), RGB: [ 204.  202.  202.]  >>  Objects: 11
+
+Color: (None, 'gainsboro'), RGB: [ 227.  224.  232.]  >>  Objects: 4
+Color: (None, 'gainsboro'), RGB: [ 218.  212.  225.]  >>  Objects: 6
+Color: (None, 'gainsboro'), RGB: [ 235.  215.  226.]  >>  Objects: 5
+Color: (None, 'gainsboro'), RGB: [ 215.  211.  225.]  >>  Objects: 5
+Color: (None, 'gainsboro'), RGB: [ 221.  215.  224.]  >>  Objects: 7
+
+Color: (None, 'grey'), RGB: [ 135.  130.  138.]  >>  Objects: 427
+Color: (None, 'lightslategrey'), RGB: [ 146.  143.  150.]  >>  Objects: 323
+Color: (None, 'darkgrey'), RGB: [ 159.  158.  158.]  >>  Objects: 2
+Color: (None, 'grey'), RGB: [ 131.  117.  104.]  >>  Objects: 55
+Color: (None, 'grey'), RGB: [ 129.  127.  131.]  >>  Objects: 464
+Color: (None, 'grey'), RGB: [ 137.  136.  139.]  >>  Objects: 264
+
+
+# Black is black
+Color: (None, 'black'), RGB: [ 32.  31.  33.]  >>  Objects: 1459
+Color: (None, 'black'), RGB: [  8.   8.  10.]  >>  Objects: 1452
+Color: (None, 'black'), RGB: [ 6.  6.  8.]  >>  Objects: 2655
+Color: (None, 'black'), RGB: [ 27.  27.  29.]  >>  Objects: 2389
+Color: (None, 'black'), RGB: [ 5.  5.  7.]  >>  Objects: 2008
+Color: (None, 'black'), RGB: [ 20.  20.  22.]  >>  Objects: 957
+Color: (None, 'black'), RGB: [ 26.  25.  28.]  >>  Objects: 1511
+Color: (None, 'black'), RGB: [ 5.  5.  7.]  >>  Objects: 1903
+Color: (None, 'black'), RGB: [ 16.  16.  18.]  >>  Objects: 1118
+Color: (None, 'black'), RGB: [ 16.  16.  18.]  >>  Objects: 1064
+Color: (None, 'black'), RGB: [  8.   8.  10.]  >>  Objects: 238
+Color: (None, 'black'), RGB: [ 30.  30.  32.]  >>  Objects: 1851
+Color: (None, 'black'), RGB: [  8.   8.  10.]  >>  Objects: 233
+Color: (None, 'black'), RGB: [ 14.  14.  16.]  >>  Objects: 1245
+Color: (None, 'black'), RGB: [ 16.  16.  18.]  >>  Objects: 1167
+Color: (None, 'black'), RGB: [ 12.  12.  14.]  >>  Objects: 1887
+Color: (None, 'black'), RGB: [ 11.  11.  13.]  >>  Objects: 1720
+Color: (None, 'black'), RGB: [ 22.  22.  24.]  >>  Objects: 1816
+Color: (None, 'black'), RGB: [ 5.  5.  7.]  >>  Objects: 806
+Color: (None, 'black'), RGB: [ 30.  29.  32.]  >>  Objects: 1469
+Color: (None, 'black'), RGB: [ 8.  7.  9.]  >>  Objects: 1384
+Color: (None, 'black'), RGB: [  8.   8.  10.]  >>  Objects: 826
+Color: (None, 'black'), RGB: [ 26.  25.  27.]  >>  Objects: 809
+Color: (None, 'black'), RGB: [ 28.  28.  30.]  >>  Objects: 1328
+Color: (None, 'black'), RGB: [ 7.  7.  9.]  >>  Objects: 834
+Color: (None, 'black'), RGB: [ 22.  22.  24.]  >>  Objects: 999
+Color: (None, 'black'), RGB: [ 5.  5.  6.]  >>  Objects: 642
+Color: (None, 'black'), RGB: [ 7.  6.  9.]  >>  Objects: 1369
+Color: (None, 'black'), RGB: [ 31.  30.  34.]  >>  Objects: 1563
+Color: (None, 'black'), RGB: [ 24.  24.  26.]  >>  Objects: 989
+Color: (None, 'black'), RGB: [ 5.  5.  7.]  >>  Objects: 421
+Color: (None, 'black'), RGB: [ 31.  30.  32.]  >>  Objects: 1507
+Color: (None, 'black'), RGB: [ 7.  6.  9.]  >>  Objects: 1315
+Color: (None, 'black'), RGB: [ 21.  21.  23.]  >>  Objects: 1057
+Color: (None, 'black'), RGB: [ 4.  4.  6.]  >>  Objects: 654
+Color: (None, 'black'), RGB: [ 11.  11.  13.]  >>  Objects: 1588
+Color: (None, 'black'), RGB: [ 32.  32.  34.]  >>  Objects: 2122
+Color: (None, 'black'), RGB: [ 31.  31.  33.]  >>  Objects: 3258
+Color: (None, 'black'), RGB: [  8.   8.  10.]  >>  Objects: 2139
+Color: (None, 'black'), RGB: [ 33.  32.  35.]  >>  Objects: 1857
+Color: (None, 'black'), RGB: [  8.   8.  10.]  >>  Objects: 1711
+Color: (None, 'black'), RGB: [ 33.  33.  35.]  >>  Objects: 1641
+Color: (None, 'black'), RGB: [  8.   8.  10.]  >>  Objects: 1632
+Color: (None, 'black'), RGB: [ 21.  21.  23.]  >>  Objects: 997
+Color: (None, 'black'), RGB: [ 4.  4.  6.]  >>  Objects: 461
+Color: (None, 'black'), RGB: [ 10.  10.  12.]  >>  Objects: 2217
+Color: (None, 'black'), RGB: [ 23.  23.  25.]  >>  Objects: 1567
+Color: (None, 'black'), RGB: [ 5.  5.  7.]  >>  Objects: 1028
+Color: (None, 'black'), RGB: [ 22.  22.  24.]  >>  Objects: 1219
+Color: (None, 'black'), RGB: [ 5.  5.  7.]  >>  Objects: 851
+Color: (None, 'black'), RGB: [ 33.  32.  35.]  >>  Objects: 1634
+Color: (None, 'black'), RGB: [  8.   8.  10.]  >>  Objects: 1593
+Color: (None, 'black'), RGB: [ 33.  32.  35.]  >>  Objects: 3357
+Color: (None, 'black'), RGB: [  9.   9.  11.]  >>  Objects: 2455
+Color: (None, 'black'), RGB: [ 35.  35.  37.]  >>  Objects: 3184
+Color: (None, 'black'), RGB: [ 10.  10.  12.]  >>  Objects: 2364
+Color: (None, 'black'), RGB: [ 32.  31.  34.]  >>  Objects: 1247
+Color: (None, 'black'), RGB: [ 7.  7.  9.]  >>  Objects: 1197
+Color: (None, 'black'), RGB: [ 30.  30.  34.]  >>  Objects: 1310
+Color: (None, 'black'), RGB: [ 7.  6.  9.]  >>  Objects: 1211
+Color: (None, 'black'), RGB: [ 19.  19.  22.]  >>  Objects: 851
+Color: (None, 'black'), RGB: [ 4.  4.  6.]  >>  Objects: 381
+Color: (None, 'black'), RGB: [ 2.  2.  4.]  >>  Objects: 195
+Color: (None, 'black'), RGB: [ 13.  12.  15.]  >>  Objects: 247
+Color: (None, 'black'), RGB: [ 2.  2.  4.]  >>  Objects: 130
+Color: (None, 'black'), RGB: [ 13.  11.  16.]  >>  Objects: 129
+Color: (None, 'black'), RGB: [ 14.  12.  16.]  >>  Objects: 245
+Color: (None, 'black'), RGB: [ 2.  2.  4.]  >>  Objects: 187
+Color: (None, 'black'), RGB: [ 2.  2.  3.]  >>  Objects: 228
+Color: (None, 'black'), RGB: [ 13.  12.  16.]  >>  Objects: 215
+Color: (None, 'black'), RGB: [ 26.  25.  27.]  >>  Objects: 1458
+Color: (None, 'black'), RGB: [ 6.  6.  8.]  >>  Objects: 313
+Color: (None, 'black'), RGB: [ 6.  6.  8.]  >>  Objects: 1732
+Color: (None, 'black'), RGB: [ 25.  24.  27.]  >>  Objects: 1905
+Color: (None, 'black'), RGB: [ 17.  17.  19.]  >>  Objects: 1842
+Color: (None, 'black'), RGB: [ 4.  4.  6.]  >>  Objects: 551
+Color: (None, 'black'), RGB: [ 31.  30.  33.]  >>  Objects: 318
+Color: (None, 'black'), RGB: [ 6.  6.  8.]  >>  Objects: 1555
+Color: (None, 'black'), RGB: [ 25.  24.  27.]  >>  Objects: 1771
+Color: (None, 'black'), RGB: [ 24.  24.  26.]  >>  Objects: 1687
+Color: (None, 'black'), RGB: [ 6.  6.  8.]  >>  Objects: 1641
+Color: (None, 'black'), RGB: [ 31.  30.  33.]  >>  Objects: 561
+Color: (None, 'black'), RGB: [ 4.  4.  6.]  >>  Objects: 602
+Color: (None, 'black'), RGB: [ 17.  17.  19.]  >>  Objects: 1850
+Color: (None, 'black'), RGB: [ 17.  17.  19.]  >>  Objects: 1862
+Color: (None, 'black'), RGB: [ 32.  31.  34.]  >>  Objects: 393
+Color: (None, 'black'), RGB: [ 4.  4.  6.]  >>  Objects: 572
