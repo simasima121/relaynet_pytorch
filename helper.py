@@ -67,6 +67,17 @@ def save_image(image, directory, word, ext, i, colour = False):
         name = directory + "Resized_train/" + word[:to_replace] + number + ext
     imsave(name, image)
 
+def save_np_array(weighted_image, directory, word, ext, i):
+    '''
+    Save image
+    
+    Input is image, directory, word, extension, i, colour (Bool - False)
+    '''
+    to_replace = word.find(ext)
+    number = "_weight_" + str(i+1)
+    name = directory + "Resized_train/" + word[:to_replace] + number + '.npy'
+    np.save(name,np.array(weighted_image))
+
 def create_array(n,w,h,asarray=False):
     '''
     Creates an w x h array that can be saved as numpy array
