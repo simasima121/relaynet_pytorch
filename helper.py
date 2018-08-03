@@ -3,6 +3,16 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.misc import imsave
 
+def silentremove(filename):
+    '''
+    Remove filename
+    '''
+    try:
+        os.remove(filename)
+    except OSError as e: # this would be "except OSError, e:" before Python 2.6
+        if e.errno != errno.ENOENT: # errno.ENOENT = no such file or directory
+            raise # re-raise exception if a different error occurred
+
 def rgb_to_grey(rgb):
     '''
     convert rgb color to greyscale
@@ -67,14 +77,18 @@ def save_image(image, directory, word, ext, i, colour = False):
         name = directory + "Resized_train/" + word[:to_replace] + number + ext
     imsave(name, image)
 
-def save_np_array(weighted_image, directory, word, ext, i):
+def save_np_array(weighted_image, directory, word, ext, i, ids=False):
     '''
     Save image
     
     Input is image, directory, word, extension, i, colour (Bool - False)
     '''
     to_replace = word.find(ext)
-    number = "_weight_" + str(i+1)
+    if ids:
+        number = "_id_" + str(i+1)
+    else:
+        number = "_weight_" + str(i+1)
+        
     name = directory + "Resized_train/" + word[:to_replace] + number + '.npy'
     np.save(name,np.array(weighted_image))
 
