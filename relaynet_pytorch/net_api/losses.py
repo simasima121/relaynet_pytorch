@@ -45,11 +45,20 @@ class DiceLoss(_Loss):
             target :  NxHxW LongTensor
             weights : C FloatTensor
             ignore_index : int index to ignore from loss
-            """
+        """
         eps = 0.0001
 
         output = output.exp()
+        for o in output:
+            print(o.size)
+            print(o.shape)
         encoded_target = output.detach() * 0
+        print("Encoded Target Shape:", encoded_target.shape)
+        print("Encoded Target Type:", encoded_target.type())
+        print("Target Shape:", target.shape)
+        print("Target Unsqueeze Shape:", target.unsqueeze(1).shape)
+        print("Target type:", target.type())
+        
         if ignore_index is not None:
             mask = target == ignore_index
             target = target.clone()
@@ -94,6 +103,7 @@ class CombinedLoss(nn.Module):
         # TODO: why?
         target = target.type(torch.LongTensor).cuda()
         input_soft = F.softmax(input,dim=1)
+        print('forward target',target.shape)
         y2 = torch.mean(self.dice_loss(input_soft, target))
         y1 = torch.mean(torch.mul(self.cross_entropy_loss.forward(input, target), weight))
         y = y1 + y2

@@ -91,6 +91,7 @@ class Solver(object):
                 X = Variable(sample_batched[0])
                 y = Variable(sample_batched[1])
                 w = Variable(sample_batched[2])
+                print(X.shape,y.shape, w.shape)
 
                 if model.is_cuda:
                     X, y, w = X.cuda(), y.cuda(), w.cuda()
@@ -99,6 +100,7 @@ class Solver(object):
                     curr_iter += iter
                     optim.zero_grad()
                     output = model(X)
+                    
                     loss = self.loss_func(output, y, w)
                     loss.backward()
                     optim.step()

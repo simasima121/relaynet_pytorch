@@ -2,6 +2,7 @@ import math
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.misc import imsave
+import os
 
 def silentremove(filename):
     '''
@@ -70,12 +71,26 @@ def save_image(image, directory, word, ext, i, colour = False):
     Input is image, directory, word, extension, i, colour (Bool - False)
     '''
     to_replace = word.find(ext)
+    #name = directory + word
+    #print(name)
     number = "_" + str(i+1)
     name = directory + "Resized_train/" + word[:to_replace] + number + ext
     if colour == True:
         number = "_colour_" + str(i+1)
         name = directory + "Resized_train/" + word[:to_replace] + number + ext
     imsave(name, image)
+
+def save_result_image(image, directory, word):
+    '''
+    Save image
+    
+    Input is image, directory, word, extension, i, colour (Bool - False)
+    '''
+    name = "_result_raw"
+    ext = word[-4:]
+    name = directory + word[:-4] + name + '.png'
+    imsave(name, image)
+    print('Saved',name)
 
 def save_np_array(weighted_image, directory, word, ext, i, ids=False):
     '''

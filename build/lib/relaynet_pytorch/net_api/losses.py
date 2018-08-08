@@ -50,6 +50,8 @@ class DiceLoss(_Loss):
 
         output = output.exp()
         encoded_target = output.detach() * 0
+        
+        
         if ignore_index is not None:
             mask = target == ignore_index
             target = target.clone()
@@ -58,6 +60,7 @@ class DiceLoss(_Loss):
             mask = mask.unsqueeze(1).expand_as(encoded_target)
             encoded_target[mask] = 0
         else:
+            print(encoded_target.shape)
             encoded_target.scatter_(1, target.unsqueeze(1), 1)
 
         if weights is None:
