@@ -1,0 +1,29 @@
+[W 01:49:53.642 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 01:49:53.651 NotebookApp] Serving notebooks from local directory: /home/sim/notebooks/relaynet_pytorch
+[I 01:49:53.651 NotebookApp] 0 active kernels 
+[I 01:49:53.651 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/
+[I 01:49:53.651 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 01:50:02.346 NotebookApp] Interrupted...
+[I 01:50:02.346 NotebookApp] Shutting down kernels
+[W 01:50:07.608 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 01:50:07.618 NotebookApp] Serving notebooks from local directory: /home/sim/notebooks/relaynet_pytorch
+[I 01:50:07.618 NotebookApp] 0 active kernels 
+[I 01:50:07.618 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/
+[I 01:50:07.618 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 01:50:26.425 NotebookApp] Kernel started: 675c699a-db8c-474b-aad6-d7e33d35e7c1
+[I 01:50:27.143 NotebookApp] Adapting to protocol v5.1 for kernel 675c699a-db8c-474b-aad6-d7e33d35e7c1
+[I 01:50:44.847 NotebookApp] Kernel restarted: 675c699a-db8c-474b-aad6-d7e33d35e7c1
+[I 01:50:45.646 NotebookApp] Adapting to protocol v5.1 for kernel 675c699a-db8c-474b-aad6-d7e33d35e7c1
+2018-08-08 01:51:44.031388: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2018-08-08 01:51:44.031425: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-08-08 01:51:44.031433: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2018-08-08 01:51:44.031438: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2018-08-08 01:51:44.031444: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+[I 01:52:26.587 NotebookApp] Saving file at /TF_ReLayNet.ipynb
+[I 01:54:26.484 NotebookApp] Saving file at /TF_ReLayNet.ipynb
+[I 01:56:26.468 NotebookApp] Saving file at /TF_ReLayNet.ipynb
+[I 01:58:07.061 NotebookApp] Adapting to protocol v5.1 for kernel 675c699a-db8c-474b-aad6-d7e33d35e7c1
+[I 01:58:26.162 NotebookApp] Saving file at /TF_ReLayNet.ipynb
+[I 01:58:30.123 NotebookApp] Adapting to protocol v5.1 for kernel 675c699a-db8c-474b-aad6-d7e33d35e7c1
+[I 01:58:46.177 NotebookApp] Adapting to protocol v5.1 for kernel 675c699a-db8c-474b-aad6-d7e33d35e7c1
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
