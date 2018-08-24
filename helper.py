@@ -13,6 +13,14 @@ def silentremove(filename):
     except OSError as e: # this would be "except OSError, e:" before Python 2.6
         if e.errno != errno.ENOENT: # errno.ENOENT = no such file or directory
             raise # re-raise exception if a different error occurred
+def remove_files(mydir, ext):
+    '''
+    Remove all files from a folder
+    Inputs are directionry and extension of files to remove
+    '''
+    filelist = [ f for f in os.listdir(mydir) if f.endswith(ext) ]
+    for f in filelist:
+        os.remove(os.path.join(mydir, f))
 
 def rgb_to_grey(rgb):
     '''
@@ -100,11 +108,11 @@ def save_np_array(weighted_image, directory, word, ext, i, ids=False):
     '''
     to_replace = word.find(ext)
     if ids:
-        number = "_id_" + str(i+1)
+        number = "Train"+ word[:to_replace] + "_id_" + str(i+1)
     else:
         number = "_weight_" + str(i+1)
         
-    name = directory + "Resized_train/" + word[:to_replace] + number + '.npy'
+    name = directory + "Train" + word[:to_replace] + number + '.npy'
     np.save(name,np.array(weighted_image))
 
 def create_array(n,w,h,asarray=False):

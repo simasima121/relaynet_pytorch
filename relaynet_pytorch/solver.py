@@ -17,8 +17,14 @@ def per_class_dice(y_pred, y_true, num_class):
     for i in range(num_class):
         GT = y_true == (i + 1)
         Pred = y_pred == (i + 1)
-        inter = np.sum(np.matmul(GT, Pred)) + 0.0001
+        
+        inter = np.sum(GT * Pred) + 0.0001
         union = np.sum(GT) + np.sum(Pred) + 0.0001
+        
+        # New_Pred = Pred.transpose((0,2,1))
+        # inter = np.sum(np.matmul(GT, New_Pred)) + 0.0001
+        # union = np.sum(abs(GT)) + np.sum(abs(Pred)) + 0.0001
+        
         t = 2 * inter / union
         avg_dice = avg_dice + (t / num_class)
     return avg_dice
@@ -36,8 +42,8 @@ class Solver(object):
                           "eps": 1e-8,
                           "weight_decay": 0.0001}
     gamma = 0.5
-    step_size = 5
-    NumClass = 9
+    step_size = 5 
+    NumClass = 8
 
     def __init__(self, optim=torch.optim.Adam, optim_args={},
                  loss_func=CombinedLoss()):
@@ -91,7 +97,6 @@ class Solver(object):
                 X = Variable(sample_batched[0])
                 y = Variable(sample_batched[1])
                 w = Variable(sample_batched[2])
-                print(X.shape,y.shape, w.shape)
 
                 if model.is_cuda:
                     X, y, w = X.cuda(), y.cuda(), w.cuda()
@@ -105,19 +110,21 @@ class Solver(object):
                     loss.backward()
                     optim.step()
                     if iter % log_nth == 0:
-                        self.train_loss_history.append(loss.data[0])
-                        print('[Iteration : ' + str(iter) + '/' + str(iter_per_epoch * num_epochs) + '] : ' + str(
-                            loss.data[0]))
+                        #self.train_loss_history.append(loss.data[0])
+                        self.train_loss_history.append(loss.item())
+                        #print('[Iteration : ' + str(iter) + '/' + str(iter_per_epoch * num_epochs) + '] : ' + str(loss.data[0]))
+                        print('[Iteration : ' + str(iter) + '/' + str(iter_per_epoch * num_epochs) + '] - Train Loss: ' + str(loss.item()))
 
 
-                #_, batch_output = torch.max(F.softmax(model(X),dim=1), dim=1)
-                #avg_dice = per_class_dice(batch_output, y, self.NumClass)
-                #print('Per class average dice score is ' + str(avg_dice))
-                # self.train_acc_history.append(train_accuracy)
-                #
-                # val_output = torch.max(model(Variable(torch.from_numpy(val_loader.dataset.X))), dim= 1)
-                # val_accuracy = self.accuracy(val_output[1], Variable(torch.from_numpy(val_loader.dataset.y)))
-                # self.val_acc_history.append(val_accuracy)
-            print('[Epoch : ' + str(epoch) + '/' + str(num_epochs) + '] : ' + str(loss.data[0]))
+                _, batch_output = torch.max(F.softmax(model(X),dim=1), dim=1)
+                avg_dice = per_class_dice(batch_output, y, self.NumClass)
+                print('Per class average dice score is ' + str(avg_dice))
+                #self.train_acc_history.append(train_accuracy)
+                
+                #val_output = torch.max(model(Variable(torch.from_numpy(val_loader.dataset.X))), dim= 1)
+                #val_accuracy = self.accuracy(val_output[1], Variable(torch.from_numpy(val_loader.dataset.y)))
+                #self.val_acc_history.append(val_accuracy)
+            #print('[Epoch : ' + str(epoch) + '/' + str(num_epochs) + '] : ' + str(loss.data[0]))
+            print('[Epoch : ' + str(epoch) + '/' + str(num_epochs) + '] : ' + str(loss.item()))
             model.save('models/' + exp_dir_name + '/relaynet_epoch' + str(epoch + 1) + '.model')
         print('FINISH.')

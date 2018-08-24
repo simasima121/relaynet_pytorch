@@ -46,37 +46,31 @@ def get_imdb_data():
     a_group_key = list(set.keys())[0]
     set = list(set[a_group_key])
     set = np.squeeze(np.asarray(set))
+
     sz = Data.shape
     
     Data = Data.reshape([sz[0], 1, sz[1], sz[2]])
-    Data = Data[:, :, 0:512, :] # I used different height to them as it changes input dimension to much
-    weights = Label[:, 1, 0:512, :]
-    Label = Label[:, 0, 0:512, :]
-    print(Label.shape)
-    print(weights.shape)
-    #Data = Data[:, :, 61:573, :]
-    #weights = Label[:, 1, 61:573, :] # weights are at index 1
-    #Label = Label[:, 0, 61:573, :] # labels are at index 0
+    Data = Data[:, :, :, :] # I used different height to them as it changes input dimension to much
+    weights = Label[:, 1, :, :]
+    Label = Label[:, 0, :, :]
+    
     sz = Label.shape
+    
     Label = Label.reshape([sz[0], 1, sz[1], sz[2]])
     weights = weights.reshape([sz[0], 1, sz[1], sz[2]])
     train_id = set == 1
     test_id = set == 3
    
     Tr_Dat = Data[train_id, :, :, :]
-    Tr_Label = np.squeeze(Label[train_id, :, :, :]) - 1 # Index from [0-(NumClass-1)]
+    #Tr_Label = np.squeeze(Label[train_id, :, :, :]) - 1 # Index from [0-(NumClass-1)]
+    Tr_Label = np.squeeze(Label[train_id, :, :, :])
     Tr_weights = weights[train_id, :, :, :]
-    #Tr_Dat = Data[:, :, :,train_id]
-    #Tr_Label = np.squeeze(Label[:, :, :, train_id]) - 1 # Index from [0-(NumClass-1)]
-    #Tr_weights = weights[ :, :, :, train_id]
     Tr_weights = np.tile(Tr_weights, [1, NumClass, 1, 1])
 
     Te_Dat = Data[test_id, :, :, :]
-    Te_Label = np.squeeze(Label[test_id, :, :, :]) - 1
+    #Te_Label = np.squeeze(Label[test_id, :, :, :]) - 1
+    Te_Label = np.squeeze(Label[test_id, :, :, :]) 
     Te_weights = weights[test_id, :, :, :]
-    #Te_Dat = Data[:, :, :,test_id]
-    #Te_Label = np.squeeze(Label[:, :, :,test_id]) - 1
-    #Te_weights = weights[:, :, :,test_id]
     Te_weights = np.tile(Te_weights, [1, NumClass, 1, 1])
 
     return (ImdbData(Tr_Dat, Tr_Label, Tr_weights),
