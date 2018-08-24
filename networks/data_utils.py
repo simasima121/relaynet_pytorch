@@ -9,10 +9,10 @@ import h5py
 
 class ImdbData(data.Dataset):
     def __init__(self, X, y, yb, w):
-        self.X = X
-        self.y = y
-        self.yb = yb
-        self.w = w
+        self.X = X  # image
+        self.y = y # label
+        self.yb = yb # label_bin
+        self.w = w # weight
 
     def __getitem__(self, index):
         img = self.X[index]
@@ -32,7 +32,7 @@ class ImdbData(data.Dataset):
 
 def get_imdb_data():
     # TODO: Need to change later
-    NumClass = 7
+    NumClass = 8
 
     # Load DATA
     Data = h5py.File('datasets/OCTData/Data.h5', 'r')
