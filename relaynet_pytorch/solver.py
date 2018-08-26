@@ -116,14 +116,14 @@ class Solver(object):
                         print('[Iteration : ' + str(iter) + '/' + str(iter_per_epoch * num_epochs) + '] - Train Loss: ' + str(loss.item()))
 
 
-                _, batch_output = torch.max(F.softmax(model(X),dim=1), dim=1)
-                avg_dice = per_class_dice(batch_output, y, self.NumClass)
-                print('Per class average dice score is ' + str(avg_dice))
+                # _, batch_output = torch.max(F.softmax(model(X),dim=1), dim=1)
+                # avg_dice = per_class_dice(batch_output, y, self.NumClass)
+                # print('Per class average dice score is ' + str(avg_dice))
                 #self.train_acc_history.append(train_accuracy)
                 
-                #val_output = torch.max(model(Variable(torch.from_numpy(val_loader.dataset.X))), dim= 1)
-                #val_accuracy = self.accuracy(val_output[1], Variable(torch.from_numpy(val_loader.dataset.y)))
-                #self.val_acc_history.append(val_accuracy)
+                val_output = torch.max(model(Variable(torch.from_numpy(val_loader.dataset.X))), dim= 1)
+                val_accuracy = self.accuracy(val_output[1], Variable(torch.from_numpy(val_loader.dataset.y)))
+                self.val_acc_history.append(val_accuracy)
             #print('[Epoch : ' + str(epoch) + '/' + str(num_epochs) + '] : ' + str(loss.data[0]))
             print('[Epoch : ' + str(epoch) + '/' + str(num_epochs) + '] : ' + str(loss.item()))
             model.save('models/' + exp_dir_name + '/relaynet_epoch' + str(epoch + 1) + '.model')
