@@ -90,9 +90,14 @@ class Solver(object):
         curr_iter = 0
 
         create_exp_directory(exp_dir_name)
-
+        
+        best_train_loss = 100
+        avg_train_losses = []
+        
         for epoch in range(num_epochs):
+            print('Epoch: ', epoch)
             scheduler.step()
+            train_losses = []
             for i_batch, sample_batched in enumerate(train_loader):
                 X = Variable(sample_batched[0])
                 y = Variable(sample_batched[1])
@@ -112,19 +117,32 @@ class Solver(object):
                     if iter % log_nth == 0:
                         #self.train_loss_history.append(loss.data[0])
                         self.train_loss_history.append(loss.item())
-                        #print('[Iteration : ' + str(iter) + '/' + str(iter_per_epoch * num_epochs) + '] : ' + str(loss.data[0]))
+
                         print('[Iteration : ' + str(iter) + '/' + str(iter_per_epoch * num_epochs) + '] - Train Loss: ' + str(loss.item()))
-
-
+                    train_losses.append(loss.item())       
+                    if loss.item() < best_train_loss:
+                        best_train_loss = loss.item()
+                        print('Best Train Loss: ', best_train_loss)
+            print('Average Train loss:, ', np.average(train_losses))   
+            avg_train_losses.append(np.average(train_losses))
+            print()
+                
                 # _, batch_output = torch.max(F.softmax(model(X),dim=1), dim=1)
                 # avg_dice = per_class_dice(batch_output, y, self.NumClass)
                 # print('Per class average dice score is ' + str(avg_dice))
                 #self.train_acc_history.append(train_accuracy)
                 
-                val_output = torch.max(model(Variable(torch.from_numpy(val_loader.dataset.X))), dim= 1)
-                val_accuracy = self.accuracy(val_output[1], Variable(torch.from_numpy(val_loader.dataset.y)))
-                self.val_acc_history.append(val_accuracy)
-            #print('[Epoch : ' + str(epoch) + '/' + str(num_epochs) + '] : ' + str(loss.data[0]))
+                
+                #loaded = Variable(torch.from_numpy(val_loader.dataset.X))
+                #modelled = model(loaded)
+                #val_output = torch.max(modelled, dim= 1)
+                #val_accuracy = self.accuracy(val_output[1], Variable(torch.from_numpy(val_loader.dataset.y)))
+                #self.val_acc_history.append(val_accuracy)
+                
             print('[Epoch : ' + str(epoch) + '/' + str(num_epochs) + '] : ' + str(loss.item()))
-            model.save('models/' + exp_dir_name + '/relaynet_epoch' + str(epoch + 1) + '.model')
+            if avg_train_losses.index(min(avg_train_losses)) == epoch:
+                #model.save('models/' + exp_dir_name + '/relaynet_epoch' + str(epoch + 1) + '.model')
+                model.save('models/' + exp_dir_name + '/best.model')
+        
+        print('Best Loss At Epoch: ', avg_train_losses.index(min(avg_train_losses)) + 1)
         print('FINISH.')
