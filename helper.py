@@ -3,6 +3,52 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.misc import imsave
 import os
+#import skimage.restoration as sr
+import numpy as np
+import glob
+import os
+import scipy.io as scio
+#from skimage import exposure
+#from skimage.io import imsave, imread
+from scipy.misc import imresize
+from scipy.io import savemat
+from scipy import ndimage, misc
+import re
+
+def get_info(filenames, ext, root):
+    images = []
+    for filename in filenames :
+        filepath = os.path.join(root,filename)
+        if ext == '.npy':
+            image = np.load(filepath)
+            h,w = image.shape
+            if h != 512 or w != 64:
+                amount = 512 - h
+                id_full = np.full((amount, 64), 0)
+                try:
+                    image = np.concatenate((image, id_full))
+                except Exception as e:
+                    print(image.shape)
+        elif ext == '.JPG' or ext == '.tif' or ext =='.png':
+            image = ndimage.imread(filepath)
+        images.append(image)
+    return images
+
+def get_data(directory,ext):
+    from os import listdir
+    from os.path import isfile, join
+    
+    root_path = ""
+    filenames = [f for f in listdir(directory) if isfile(join(directory, f)) and f != '.DS_Store']
+    filenames = sorted(filenames)
+    return filenames, get_info(filenames, ext, directory)
+
+def list_all_files(directory):
+    from os import listdir
+    from os.path import isfile, join
+    all_labels_files = [f for f in listdir(directory) if isfile(join(directory, f)) and f != '.DS_Store']
+    all_labels_files.sort()
+    return all_labels_files
 
 def silentremove(filename):
     '''

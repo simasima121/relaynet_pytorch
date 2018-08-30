@@ -109,11 +109,11 @@ def pixel_colors(file_name):
 
     return dict_of_colours
 
-import webcolors as wb
-import numpy as np
-from skimage import io
-from skimage.color import rgb2lab, deltaE_cie76
-from PIL import Image
+#import webcolors as wb
+#import numpy as np
+#from skimage import io
+#from skimage.color import rgb2lab, deltaE_cie76
+#from PIL import Image
 
 # Source: https://stackoverflow.com/questions/44428315/similar-color-detection-in-python
 
