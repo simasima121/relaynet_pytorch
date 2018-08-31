@@ -3975,4 +3975,401 @@ WARNING:root:kernel c580f43b-cf6c-4c1d-a5a7-985e2335e600 restarted
 [I 17:53:45.060 NotebookApp] Saving file at /Whole_TF_ReLayNet.ipynb
 [I 17:55:45.021 NotebookApp] Saving file at /Whole_TF_ReLayNet.ipynb
 [I 17:57:44.824 NotebookApp] Saving file at /Whole_TF_ReLayNet.ipynb
-                                                                     
+                                                                     [I 00:21:45.781 NotebookApp] Writing notebook server cookie secret to /run/user/1001/jupyter/notebook_cookie_secret
+[W 00:21:47.044 NotebookApp] All authentication is disabled.  Anyone who can connect to this server will be able to run code.
+[I 00:21:47.105 NotebookApp] Serving notebooks from local directory: /home/sim/notebooks/relaynet_pytorch
+[I 00:21:47.105 NotebookApp] 0 active kernels 
+[I 00:21:47.105 NotebookApp] The Jupyter Notebook is running at: http://localhost:8888/
+[I 00:21:47.105 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 00:21:47.925 NotebookApp] 302 GET / (127.0.0.1) 0.84ms
+[I 00:22:04.088 NotebookApp] Kernel started: 65bb75ba-fc63-40e5-81cb-a4144f623b91
+[I 00:22:07.499 NotebookApp] Kernel started: b59c9c13-90cc-49d4-b8d9-42beff8f99b5
+[I 00:22:09.415 NotebookApp] Adapting to protocol v5.1 for kernel 65bb75ba-fc63-40e5-81cb-a4144f623b91
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 00:22:13.101 NotebookApp] Adapting to protocol v5.1 for kernel b59c9c13-90cc-49d4-b8d9-42beff8f99b5
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 00:26:42.237 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 00:26:48.808 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 00:26:53.864 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 00:27:17.130 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 00:27:29.409 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 00:28:07.625 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 00:29:02.195 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:29:02.826 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:30:08.573 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 00:30:14.981 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:30:16.695 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:30:28.109 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:30:34.760 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:30:34.965 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:30:35.565 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:30:36.760 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:30:37.647 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:30:37.878 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:30:38.456 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:30:40.874 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+2018-08-31 00:31:17.122417: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2018-08-31 00:31:17.476701: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-08-31 00:31:17.477134: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:04.0
+totalMemory: 11.17GiB freeMemory: 11.09GiB
+2018-08-31 00:31:17.477163: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+2018-08-31 00:31:21.690906: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+[I 00:31:50.261 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:31:56.219 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:32:04.081 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:32:07.619 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 00:33:50.801 NotebookApp] Kernel started: 8f801d6e-a272-4400-9736-927427096b28
+[I 00:33:51.415 NotebookApp] Adapting to protocol v5.1 for kernel 8f801d6e-a272-4400-9736-927427096b28
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 00:34:04.290 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:34:04.539 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 00:34:08.342 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 00:35:42.629 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 00:36:04.078 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:38:04.649 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:40:04.442 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:42:04.488 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:44:04.401 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:46:04.548 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:48:04.339 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:50:04.463 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:52:04.179 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:54:04.114 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:56:04.412 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 00:58:04.119 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 01:00:04.156 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 01:02:04.158 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 01:04:04.444 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 01:06:04.374 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 01:08:04.399 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 01:10:04.151 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 01:12:04.400 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 01:14:04.410 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 01:18:12.708 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 01:18:32.815 NotebookApp] Kernel started: 8a50a300-dc58-4c70-a29d-1d1505090adb
+[I 01:18:33.625 NotebookApp] Adapting to protocol v5.1 for kernel 8a50a300-dc58-4c70-a29d-1d1505090adb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 01:18:33.802 NotebookApp] Kernel started: abdc1ff6-9116-43c5-8f6a-08bd7202098c
+[I 01:18:34.359 NotebookApp] Adapting to protocol v5.1 for kernel abdc1ff6-9116-43c5-8f6a-08bd7202098c
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 01:19:45.519 NotebookApp] Saving file at /torch_make_predictions.ipynb
+[I 01:23:21.705 NotebookApp] Saving file at /torch_make_predictions.ipynb
+[I 01:23:37.207 NotebookApp] Saving file at /torch_make_predictions.ipynb
+[I 01:23:47.693 NotebookApp] Saving file at /torch_make_predictions.ipynb
+THCudaCheck FAIL file=/home/sim/install/pytorch/aten/src/THC/generic/THCStorage.cu line=58 error=2 : out of memory
+[I 01:24:33.431 NotebookApp] Saving file at /torch_make_predictions.ipynb
+[I 01:24:33.550 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+[I 01:24:36.833 NotebookApp] Saving file at /torch_make_predictions.ipynb
+[I 01:24:44.475 NotebookApp] Adapting to protocol v5.1 for kernel b59c9c13-90cc-49d4-b8d9-42beff8f99b5
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 01:25:33.799 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+[I 01:25:42.582 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+2018-08-31 01:25:58.661302: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2018-08-31 01:25:58.803162: E tensorflow/core/common_runtime/direct_session.cc:170] Internal: failed initializing StreamExecutor for CUDA device ordinal 0: Internal: failed call to cuDevicePrimaryCtxRetain: CUDA_ERROR_OUT_OF_MEMORY; total memory reported: 11996954624
+2018-08-31 01:26:16.424382: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-08-31 01:26:16.424792: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 1 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:05.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-08-31 01:26:16.542928: F ./tensorflow/stream_executor/lib/statusor.h:212] Non-OK-status: status_ status: Internal: failed initializing StreamExecutor for CUDA device ordinal 0: Internal: failed call to cuDevicePrimaryCtxRetain: CUDA_ERROR_OUT_OF_MEMORY; total memory reported: 11996954624
+[I 01:26:18.802 NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel abdc1ff6-9116-43c5-8f6a-08bd7202098c restarted
+[I 01:26:31.077 NotebookApp] Kernel restarted: abdc1ff6-9116-43c5-8f6a-08bd7202098c
+[I 01:26:31.840 NotebookApp] Adapting to protocol v5.1 for kernel abdc1ff6-9116-43c5-8f6a-08bd7202098c
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+2018-08-31 01:26:33.463392: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2018-08-31 01:26:33.603226: E tensorflow/core/common_runtime/direct_session.cc:170] Internal: failed initializing StreamExecutor for CUDA device ordinal 0: Internal: failed call to cuDevicePrimaryCtxRetain: CUDA_ERROR_OUT_OF_MEMORY; total memory reported: 11996954624
+[I 01:26:33.834 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+2018-08-31 01:26:54.800555: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-08-31 01:26:54.801016: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 1 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:05.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-08-31 01:26:54.914435: F ./tensorflow/stream_executor/lib/statusor.h:212] Non-OK-status: status_ status: Internal: failed initializing StreamExecutor for CUDA device ordinal 0: Internal: failed call to cuDevicePrimaryCtxRetain: CUDA_ERROR_OUT_OF_MEMORY; total memory reported: 11996954624
+[I 01:26:58.078 NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel abdc1ff6-9116-43c5-8f6a-08bd7202098c restarted
+[I 01:27:05.513 NotebookApp] Kernel shutdown: 65bb75ba-fc63-40e5-81cb-a4144f623b91
+[I 01:27:06.519 NotebookApp] Kernel shutdown: 8f801d6e-a272-4400-9736-927427096b28
+[I 01:27:13.655 NotebookApp] Kernel restarted: abdc1ff6-9116-43c5-8f6a-08bd7202098c
+[I 01:27:14.350 NotebookApp] Adapting to protocol v5.1 for kernel abdc1ff6-9116-43c5-8f6a-08bd7202098c
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+2018-08-31 01:27:15.970907: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2018-08-31 01:27:16.081655: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-08-31 01:27:16.082110: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:04.0
+totalMemory: 11.17GiB freeMemory: 10.68GiB
+2018-08-31 01:27:16.166877: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-08-31 01:27:16.167294: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 1 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:05.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-08-31 01:27:16.167543: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1045] Device peer to peer matrix
+2018-08-31 01:27:16.180413: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1051] DMA: 0 1 
+2018-08-31 01:27:16.180466: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 0:   Y Y 
+2018-08-31 01:27:16.180479: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1061] 1:   Y Y 
+2018-08-31 01:27:16.180495: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+2018-08-31 01:27:16.180507: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:1) -> (device: 1, name: Tesla K80, pci bus id: 0000:00:05.0, compute capability: 3.7)
+[I 01:28:32.544 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+[I 01:28:33.340 NotebookApp] Saving file at /torch_make_predictions.ipynb
+[I 01:28:46.655 NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel abdc1ff6-9116-43c5-8f6a-08bd7202098c restarted
+[I 01:28:54.489 NotebookApp] Kernel restarted: 8a50a300-dc58-4c70-a29d-1d1505090adb
+[I 01:28:55.411 NotebookApp] Adapting to protocol v5.1 for kernel 8a50a300-dc58-4c70-a29d-1d1505090adb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 01:30:04.661 NotebookApp] Saving file at /torch_make_predictions.ipynb
+[I 01:30:12.387 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+[I 01:30:16.156 NotebookApp] Kernel restarted: abdc1ff6-9116-43c5-8f6a-08bd7202098c
+[I 01:30:16.925 NotebookApp] Adapting to protocol v5.1 for kernel abdc1ff6-9116-43c5-8f6a-08bd7202098c
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+2018-08-31 01:30:18.497811: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2018-08-31 01:30:18.602264: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-08-31 01:30:18.602699: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:04.0
+totalMemory: 11.17GiB freeMemory: 9.88GiB
+2018-08-31 01:30:18.602726: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+2018-08-31 01:30:18.876751: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+[I 01:30:33.365 NotebookApp] Saving file at /torch_make_predictions.ipynb
+[I 01:30:33.846 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+[I 01:32:34.626 NotebookApp] Saving file at /torch_make_predictions.ipynb
+[I 01:32:34.887 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+[I 01:49:33.338 NotebookApp] Saving file at /torch_make_predictions.ipynb
+[I 01:49:33.449 NotebookApp] Saving file at /torch_make_predictions.ipynb
+[I 01:49:37.340 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+[I 01:49:43.961 NotebookApp] Adapting to protocol v5.1 for kernel b59c9c13-90cc-49d4-b8d9-42beff8f99b5
+[I 01:49:44.250 NotebookApp] Adapting to protocol v5.1 for kernel abdc1ff6-9116-43c5-8f6a-08bd7202098c
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 01:49:45.034 NotebookApp] Adapting to protocol v5.1 for kernel 8a50a300-dc58-4c70-a29d-1d1505090adb
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 01:49:50.064 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 01:49:53.802 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+[I 01:49:57.533 NotebookApp] Saving file at /torch_make_predictions.ipynb
+[I 01:50:04.664 NotebookApp] Kernel shutdown: b59c9c13-90cc-49d4-b8d9-42beff8f99b5
+[I 01:50:05.267 NotebookApp] Kernel shutdown: abdc1ff6-9116-43c5-8f6a-08bd7202098c
+[I 01:50:06.303 NotebookApp] Kernel shutdown: 8a50a300-dc58-4c70-a29d-1d1505090adb
+[I 01:51:02.736 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 02:09:54.057 NotebookApp] Kernel started: 50639534-b691-4ef9-8cb1-522abf247a98
+[I 02:09:54.797 NotebookApp] Adapting to protocol v5.1 for kernel 50639534-b691-4ef9-8cb1-522abf247a98
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 02:09:56.326 NotebookApp] Kernel started: f628fc94-7575-4998-aaf0-8543dcb8ac51
+[I 02:09:56.960 NotebookApp] Adapting to protocol v5.1 for kernel f628fc94-7575-4998-aaf0-8543dcb8ac51
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 02:10:11.322 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+2018-08-31 02:10:18.954176: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2018-08-31 02:10:19.082764: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-08-31 02:10:19.083183: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:04.0
+totalMemory: 11.17GiB freeMemory: 11.09GiB
+2018-08-31 02:10:19.083211: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+2018-08-31 02:10:20.613673: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+[I 02:11:35.316 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+[I 02:11:42.228 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+[I 02:11:56.381 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+[I 02:12:32.276 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+[I 02:13:32.426 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+[I 02:13:54.095 NotebookApp] Saving file at /torch_make_predictions.ipynb
+[I 02:13:57.088 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+[I 02:15:55.443 NotebookApp] Saving file at /torch_make_predictions.ipynb
+[I 02:15:56.483 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+THCudaCheck FAIL file=/home/sim/install/pytorch/aten/src/THC/generic/THCStorage.cu line=58 error=2 : out of memory
+[I 02:17:07.944 NotebookApp] Kernel restarted: 50639534-b691-4ef9-8cb1-522abf247a98
+[I 02:17:08.766 NotebookApp] Adapting to protocol v5.1 for kernel 50639534-b691-4ef9-8cb1-522abf247a98
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+THCudaCheck FAIL file=/home/sim/install/pytorch/aten/src/THC/generic/THCStorage.cu line=58 error=2 : out of memory
+[I 02:17:29.325 NotebookApp] KernelRestarter: restarting kernel (1/5)
+WARNING:root:kernel f628fc94-7575-4998-aaf0-8543dcb8ac51 restarted
+[I 02:17:33.288 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+[I 02:17:34.725 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+[I 02:17:38.713 NotebookApp] Saving file at /tensorflow_make_predictions.ipynb
+[I 02:17:42.793 NotebookApp] Kernel restarted: 50639534-b691-4ef9-8cb1-522abf247a98
+[I 02:17:43.673 NotebookApp] Adapting to protocol v5.1 for kernel 50639534-b691-4ef9-8cb1-522abf247a98
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 02:17:54.209 NotebookApp] Saving file at /torch_make_predictions.ipynb
+[I 02:18:31.535 NotebookApp] Saving file at /torch_make_predictions.ipynb
+[I 02:18:36.849 NotebookApp] Kernel shutdown: f628fc94-7575-4998-aaf0-8543dcb8ac51
+[I 02:18:37.353 NotebookApp] Kernel shutdown: 50639534-b691-4ef9-8cb1-522abf247a98
+[I 02:53:12.849 NotebookApp] Kernel started: 807b8e44-cb1f-433e-a5af-b73091e879ca
+[I 02:53:13.589 NotebookApp] Adapting to protocol v5.1 for kernel 807b8e44-cb1f-433e-a5af-b73091e879ca
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 03:01:53.054 NotebookApp] Kernel shutdown: 807b8e44-cb1f-433e-a5af-b73091e879ca
+[I 03:03:09.164 NotebookApp] Kernel started: 3e9d8dbf-aabf-402a-a9c2-216e2b1e48cf
+[I 03:03:09.940 NotebookApp] Adapting to protocol v5.1 for kernel 3e9d8dbf-aabf-402a-a9c2-216e2b1e48cf
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 03:03:20.228 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:03:26.808 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:04:01.560 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:04:07.377 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:04:07.830 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:04:08.961 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:04:09.239 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:04:09.471 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:04:10.069 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:04:10.407 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:04:11.477 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:04:11.693 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:05:09.211 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:05:33.797 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:05:36.335 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:06:18.553 NotebookApp] Kernel started: 7928df9e-dd5e-4bff-b3c4-8066be5e3b82
+[I 03:06:19.125 NotebookApp] Adapting to protocol v5.1 for kernel 7928df9e-dd5e-4bff-b3c4-8066be5e3b82
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 03:07:10.020 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:09:10.029 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:09:18.917 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:09:21.041 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:09:31.352 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+2018-08-31 03:10:03.501459: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2018-08-31 03:10:03.629905: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-08-31 03:10:03.630374: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:04.0
+totalMemory: 11.17GiB freeMemory: 11.09GiB
+2018-08-31 03:10:03.630401: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+2018-08-31 03:10:03.943470: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+[I 03:10:15.002 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:10:18.601 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:12:11.302 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:12:18.632 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:12:31.599 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:12:50.334 NotebookApp] Kernel started: 49edcd55-86e9-40d5-959c-ac2d4d252405
+[I 03:12:51.003 NotebookApp] Adapting to protocol v5.1 for kernel 49edcd55-86e9-40d5-959c-ac2d4d252405
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 03:13:10.068 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:13:43.277 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:14:18.622 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:15:09.237 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+2018-08-31 03:15:58.245409: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2018-08-31 03:15:58.377435: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-08-31 03:15:58.377893: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:05.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-08-31 03:15:58.377959: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:05.0, compute capability: 3.7)
+2018-08-31 03:15:58.699220: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:05.0, compute capability: 3.7)
+[I 03:16:18.617 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:16:50.373 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:17:09.976 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:18:18.626 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:18:50.387 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:20:18.638 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:20:50.422 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:22:19.718 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:22:51.074 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:24:19.157 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:24:51.079 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:26:19.174 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:26:51.262 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:28:19.230 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:28:51.102 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:30:19.135 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:30:51.104 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:32:19.179 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:32:51.240 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:34:19.122 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:34:51.123 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:36:19.234 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:36:51.164 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:38:19.241 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:38:50.447 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:39:31.773 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:40:18.750 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:40:50.640 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:41:10.249 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:42:18.912 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:42:50.456 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:43:10.018 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:44:19.311 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:44:50.464 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:46:18.778 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:46:51.551 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:46:52.373 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:46:56.015 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:46:57.420 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:46:58.359 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:47:09.428 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:48:18.821 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:48:50.693 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:49:10.262 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:50:18.716 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:50:51.078 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:51:05.830 NotebookApp] Kernel interrupted: 7928df9e-dd5e-4bff-b3c4-8066be5e3b82
+[I 03:51:09.127 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+2018-08-31 03:51:18.619252: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0, compute capability: 3.7)
+[I 03:52:18.547 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:52:50.789 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:54:19.107 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:54:50.638 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:56:18.561 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:56:50.489 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:58:18.747 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 03:58:30.722 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 03:58:49.856 NotebookApp] Kernel shutdown: 49edcd55-86e9-40d5-959c-ac2d4d252405
+[I 03:58:50.161 NotebookApp] Kernel shutdown: 3e9d8dbf-aabf-402a-a9c2-216e2b1e48cf
+[I 03:58:57.331 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 03:59:03.690 NotebookApp] Kernel started: 4ea47ce9-620a-43fc-93fc-21b487f638b0
+[I 03:59:04.279 NotebookApp] Adapting to protocol v5.1 for kernel 4ea47ce9-620a-43fc-93fc-21b487f638b0
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 04:00:18.567 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 04:02:18.576 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 04:02:24.809 NotebookApp] Adapting to protocol v5.1 for kernel 4ea47ce9-620a-43fc-93fc-21b487f638b0
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 04:03:29.168 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 04:03:32.883 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 04:03:55.130 NotebookApp] Kernel started: 54a09c14-e40b-4bfb-86e3-904f6227e2ae
+[I 04:03:55.898 NotebookApp] Adapting to protocol v5.1 for kernel 54a09c14-e40b-4bfb-86e3-904f6227e2ae
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[IPKernelApp] ERROR | No such comm target registered: jupyter.widget.version
+[I 04:04:05.342 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 04:04:18.589 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 04:06:18.593 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 04:06:48.929 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 04:07:35.609 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 04:08:18.751 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 04:08:33.942 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 04:09:55.172 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 04:09:57.916 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 04:09:58.148 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 04:10:18.692 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 04:10:23.249 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 04:10:46.251 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 04:11:55.865 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 04:12:18.670 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 04:12:55.627 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 04:13:55.382 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 04:14:18.616 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+2018-08-31 04:15:43.828869: I tensorflow/core/platform/cpu_feature_guard.cc:137] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX
+2018-08-31 04:15:43.965638: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:892] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2018-08-31 04:15:43.966121: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Found device 0 with properties: 
+name: Tesla K80 major: 3 minor: 7 memoryClockRate(GHz): 0.8235
+pciBusID: 0000:00:05.0
+totalMemory: 11.17GiB freeMemory: 11.10GiB
+2018-08-31 04:15:43.966151: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:05.0, compute capability: 3.7)
+2018-08-31 04:15:44.298310: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1120] Creating TensorFlow device (/device:GPU:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:05.0, compute capability: 3.7)
+[I 04:15:56.081 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 04:16:18.650 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 04:16:24.716 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 04:16:35.225 NotebookApp] Kernel interrupted: 4ea47ce9-620a-43fc-93fc-21b487f638b0
+[I 04:16:43.665 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 04:18:18.854 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 04:18:24.721 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 04:20:21.580 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 04:20:27.452 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
+[I 04:21:26.129 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 04:21:26.293 NotebookApp] Saving file at /Resize_Whole_Data.ipynb
+[I 04:21:33.042 NotebookApp] Kernel shutdown: 54a09c14-e40b-4bfb-86e3-904f6227e2ae
+[I 04:21:55.027 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 04:22:30.922 NotebookApp] Saving file at /1_Train_ReLayNet_TF.ipynb
+[I 04:22:37.134 NotebookApp] Saving file at /2_Train_ReLayNet_TF.ipynb
