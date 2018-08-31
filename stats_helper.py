@@ -90,7 +90,7 @@ def thickness_metrics(true_labels, pred_labels):
 	mean_squared_error_list = [] 
 	ssim_list = []
 	
-	N = 512
+	N = 600
 	error_of_thickness = []
 	for i in range(8):
 		# NOTE: IF AVERAGE_TIHCKNESS IS NAN, MEANS NOT IN THIS IMAGE
