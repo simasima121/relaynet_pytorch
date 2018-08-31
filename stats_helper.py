@@ -13,7 +13,6 @@ def one_hot_encode(inp, num_classes):
 
 def list_of_labels(label_img, num_classes):
 	''' Get one hot encoding from label image '''
-	print(label_img.shape)
 	train_labels = one_hot_encode(label_img, num_classes)
 	return train_labels
 
@@ -61,15 +60,18 @@ def find_stats(true_labels, pred_labels):
 
 		# Dice should return 0 if Precision is low because it means that it classified a value but got it wrong
 		# if Dice != F1:
-		# 	print(Dice, F1)
-		# 	print('Dice and F1 not equal')
+		#   print(Dice, F1)
+		#   print('Dice and F1 not equal')
 		# else:
-		# 	F1 = Dice
+		#   F1 = Dice
 
 		# print('Label:',i)
 		# print('TP: {}, FP: {}, TN: {}, FN: {}, Class Accuracy: {}, Precision: {}, Recall: {}, Dice: {}'.format(TP,FP,TN,FN,Acc, Precision, Recall, Dice))
 		# print()
-		class_vals.append((TP,FP,TN,FN,Acc,Precision,Recall,Dice))
+		# NOTE: ONLY CARE ABOUT DICE SCORE FOR NOW AS IT'S ONLY 1 WITH A HEADER, JUST RETURN THE DICE SCORE
+		# class_vals.append((TP,FP,TN,FN,Acc,Precision,Recall,Dice)) # 
+		class_vals.append(Dice)
+
 	return class_vals
 
 def thickness_metrics(true_labels, pred_labels): 
@@ -100,8 +102,8 @@ def thickness_metrics(true_labels, pred_labels):
 			true_col = true_labels[:,j,i] # finding number of values in col, go down axis i.e. index of axis
 			pred_col = pred_labels[:,j,i] 
 
-			true_width = numpy.count_nonzero(true_col) # count number of 1s
-			pred_width = numpy.count_nonzero(pred_col)
+			true_width = np.count_nonzero(true_col) # count number of 1s
+			pred_width = np.count_nonzero(pred_col)
 
 			# Finding thickness by looking at pred_width - don't need truth because will find error
 			if true_width != 0:

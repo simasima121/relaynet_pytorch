@@ -41,7 +41,8 @@ def get_data(directory,ext):
     root_path = ""
     filenames = [f for f in listdir(directory) if isfile(join(directory, f)) and f != '.DS_Store']
     filenames = sorted(filenames)
-    return filenames, get_info(filenames, ext, directory)
+    images = get_info(filenames, ext, directory)
+    return filenames, images
 
 def list_all_files(directory):
     from os import listdir
