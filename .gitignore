@@ -5,5 +5,8 @@ datasets/OCTlabel041818/
 networks/classifiers/__pycache__/
 nohup.out
 *.pyc
-
+results/
+datasets
+datasets-24-aug/
+.ipynb_checkpoints/
 \.idea/

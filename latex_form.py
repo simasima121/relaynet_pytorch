@@ -29,9 +29,9 @@ def thickness_met(inp):
 	string = string[:-1]
 	print(string+'\\\\')
 
-x = "Average Scores [ 0.    0.02  0.08  0.02   nan   nan  0.01]"
-y = "Average Scores [  15.17   35.44   24.8     8.76  112.79    4.5     3.24]"
-z = "Average Scores [ 157.08   25.14   94.23   21.5   100.82   11.1     7.62]"
+x = "Average Scores [ 0.78  0.72  0.42  0.59  0.55  0.66   nan]"
+y = "Average Scores [ 141.64   24.72   94.95   37.49   10.42   12.36    7.43]"
+z = "Average Scores [ 56.93  10.76  87.69  27.54  10.04  10.69   7.43]"
 
 
 dice_met(x)

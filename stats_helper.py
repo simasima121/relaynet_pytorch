@@ -24,6 +24,7 @@ def find_stats(true_labels, pred_labels):
 	num_classes = 8
 	class_vals = []
 	thresh = 0.0001
+	acc_vals = []
 
 	for i in range(num_classes):
 		# NOTE: FOR MY CLASSES WITH MANY IMAGES - JUST ADD EXTRA DIMENSION TO pred_labels[x,:,:,i]
@@ -71,8 +72,9 @@ def find_stats(true_labels, pred_labels):
 		# NOTE: ONLY CARE ABOUT DICE SCORE FOR NOW AS IT'S ONLY 1 WITH A HEADER, JUST RETURN THE DICE SCORE
 		# class_vals.append((TP,FP,TN,FN,Acc,Precision,Recall,Dice)) # 
 		class_vals.append(Dice)
+		acc_vals.append(Acc)
 
-	return class_vals
+	return class_vals, acc_vals
 
 def thickness_metrics(true_labels, pred_labels): 
 	'''
