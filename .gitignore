@@ -3,7 +3,7 @@
 datasets/OCTData/
 datasets/OCTlabel041818/
 networks/classifiers/__pycache__/
-
+nohup.out
 *.pyc
 
 \.idea/
